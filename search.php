@@ -18,5 +18,5 @@ echo "Blood Group: ".$row['blood_group']."<br>";
 echo "Phone: ".$row['phone']."<br>";
 echo "City: ".$row['city']."<br><br>";
 }
-echo'<a href="index.html">Back to home</a>';
+echo'<a href="index.html"><button>Back to home</button></a>';
 ?>
