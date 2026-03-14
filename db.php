@@ -4,7 +4,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $conn = mysqli_connect("localhost", "root", "", "blood_donor");
 } else {
     // Online InfinityFree database
-    $conn = mysqli_connect("sql104.infinityfree.com", "if0_41390024", "your_password", "if0_41390024_blood_donor");
+    $conn = mysqli_connect("sql104.infinityfree.com", "if0_41390024", "mahesh09104", "if0_41390024_blood_donor");
 }
 
 if (!$conn) {
